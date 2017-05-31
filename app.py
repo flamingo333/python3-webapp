@@ -4,7 +4,7 @@ from datetime import datetime
 from aiohttp import web
 # 先安装 pip install aiohttp
 def index(request):
-    return web.Response(body=b'<h1>Awesome</h1>')
+    return web.Response(body=b'<h1>Awe some</h1>')
 
 @asyncio.coroutine
 def init(loop):
